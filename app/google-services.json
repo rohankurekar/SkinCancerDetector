@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "460303460521",
+    "firebase_url": "https://polar-office-267710.firebaseio.com",
+    "project_id": "polar-office-267710",
+    "storage_bucket": "polar-office-267710.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460303460521:android:c1d44e3817faf06bb3a1b8",
+        "android_client_info": {
+          "package_name": "com.example.skincancerdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460303460521-aojtqplot36iafm564l7a70kkkipb1k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArvlbFUJUyrk36Ov9kgsYbb9Bwly5pL04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460303460521-aojtqplot36iafm564l7a70kkkipb1k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

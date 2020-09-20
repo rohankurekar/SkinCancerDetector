@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ForumActivity">
+    <TextView
+        android:id="@+id/Query"
+        android:textSize="20dp"
+        android:layout_margin="2dp"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="70dp"
+        android:text="Probability : "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:text="malignant -"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"
+        android:text="benign - " />
+
+    <TextView
+        android:id="@+id/malignantProbability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:text=" 0%" />
+
+    <TextView
+        android:id="@+id/benignProbability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="130dp"
+        android:text=" 0%"
+        android:textSize="20dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/mobile_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+
+    </ListView>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="1dp"
+        >
+
+    </EditText>
+    <Button
+        android:id="@+id/send"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_send_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        >
+
+    </Button>
+
+
+</RelativeLayout>
